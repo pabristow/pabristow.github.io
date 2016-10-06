@@ -1,0 +1,1335 @@
+
+nav_images I:\modular-boost\libs\svg_plot\doc\html\images
+images_location I:\modular-boost\libs\svg_plot\doc\html
+Building the SVG_plot docs with automatic index generation disabled. To get an AutoIndex, try building with --enable-index.
+Performing configuration checks
+
+    - 32-bit                   : yes (cached)
+    - arm                      : no  (cached)
+    - mips1                    : no  (cached)
+    - power                    : no  (cached)
+    - sparc                    : no  (cached)
+    - x86                      : yes (cached)
+    - symlinks supported       : yes (cached)
+...patience...
+...patience...
+...found 4518 targets...
+...updating 365 targets...
+common.mkdir ..\..\..\bin.v2\libs\svg_plot
+common.mkdir ..\..\..\bin.v2\libs\svg_plot\doc
+common.mkdir ..\..\..\bin.v2\libs\svg_plot\doc\msvc-14.0
+common.mkdir ..\..\..\bin.v2\libs\svg_plot\doc\msvc-14.0\debug
+common.mkdir ..\..\..\bin.v2\libs\svg_plot\doc\msvc-14.0\debug\threading-multi
+quickbook.quickbook-to-boostbook ..\..\..\bin.v2\libs\svg_plot\doc\msvc-14.0\debug\threading-multi\svg_plot.xml
+Generating Output File: ..\..\..\bin.v2\libs\svg_plot\doc\msvc-14.0\debug\threading-multi\svg_plot.xml
+svg_plot.qbk: warning: Quickbook 1.7 is still under development and is likely to change in the future.
+link.mklink ..\..\..\boost\limits.hpp
+symbolic link created for ..\..\..\boost\limits.hpp <<===>> ..\libs\config\include\boost\limits.hpp
+link.mklink ..\..\..\boost\config.hpp
+symbolic link created for ..\..\..\boost\config.hpp <<===>> ..\libs\config\include\boost\config.hpp
+link.mklink ..\..\..\boost\cstdint.hpp
+symbolic link created for ..\..\..\boost\cstdint.hpp <<===>> ..\libs\config\include\boost\cstdint.hpp
+link.mklink ..\..\..\boost\detail\workaround.hpp
+symbolic link created for ..\..\..\boost\detail\workaround.hpp <<===>> ..\..\libs\config\include\boost\detail\workaround.hpp
+link.mklink ..\..\..\boost\detail\fenv.hpp
+symbolic link created for ..\..\..\boost\detail\fenv.hpp <<===>> ..\..\libs\detail\include\boost\detail\fenv.hpp
+link.mklink ..\..\..\boost\type.hpp
+symbolic link created for ..\..\..\boost\type.hpp <<===>> ..\libs\core\include\boost\type.hpp
+link.mklink ..\..\..\boost\non_type.hpp
+symbolic link created for ..\..\..\boost\non_type.hpp <<===>> ..\libs\core\include\boost\non_type.hpp
+link.mklink ..\..\..\boost\version.hpp
+symbolic link created for ..\..\..\boost\version.hpp <<===>> ..\libs\config\include\boost\version.hpp
+link.mklink ..\..\..\boost\static_assert.hpp
+symbolic link created for ..\..\..\boost\static_assert.hpp <<===>> ..\libs\static_assert\include\boost\static_assert.hpp
+link.mklink ..\..\..\boost\assert.hpp
+symbolic link created for ..\..\..\boost\assert.hpp <<===>> ..\libs\assert\include\boost\assert.hpp
+link.mklink ..\..\..\boost\current_function.hpp
+symbolic link created for ..\..\..\boost\current_function.hpp <<===>> ..\libs\assert\include\boost\current_function.hpp
+link.mklink ..\..\..\boost\utility\enable_if.hpp
+symbolic link created for ..\..\..\boost\utility\enable_if.hpp <<===>> ..\..\libs\core\include\boost\utility\enable_if.hpp
+link.mklink ..\..\..\boost\detail\endian.hpp
+symbolic link created for ..\..\..\boost\detail\endian.hpp <<===>> ..\..\libs\predef\include\boost\detail\endian.hpp
+link.mklink ..\..\..\boost\array.hpp
+symbolic link created for ..\..\..\boost\array.hpp <<===>> ..\libs\array\include\boost\array.hpp
+link.mklink ..\..\..\boost\swap.hpp
+symbolic link created for ..\..\..\boost\swap.hpp <<===>> ..\libs\core\include\boost\swap.hpp
+link.mklink ..\..\..\boost\detail\iterator.hpp
+symbolic link created for ..\..\..\boost\detail\iterator.hpp <<===>> ..\..\libs\core\include\boost\detail\iterator.hpp
+link.mklink ..\..\..\boost\throw_exception.hpp
+symbolic link created for ..\..\..\boost\throw_exception.hpp <<===>> ..\libs\throw_exception\include\boost\throw_exception.hpp
+link.mklink ..\..\..\boost\exception\exception.hpp
+symbolic link created for ..\..\..\boost\exception\exception.hpp <<===>> ..\..\libs\throw_exception\include\boost\exception\exception.hpp
+link.mklink ..\..\..\boost\scoped_array.hpp
+symbolic link created for ..\..\..\boost\scoped_array.hpp <<===>> ..\libs\smart_ptr\include\boost\scoped_array.hpp
+link.mklink ..\..\..\boost\checked_delete.hpp
+symbolic link created for ..\..\..\boost\checked_delete.hpp <<===>> ..\libs\core\include\boost\checked_delete.hpp
+link.mklink ..\..\..\boost\compressed_pair.hpp
+symbolic link created for ..\..\..\boost\compressed_pair.hpp <<===>> ..\libs\utility\include\boost\compressed_pair.hpp
+link.mklink ..\..\..\boost\detail\compressed_pair.hpp
+symbolic link created for ..\..\..\boost\detail\compressed_pair.hpp <<===>> ..\..\libs\utility\include\boost\detail\compressed_pair.hpp
+link.mklink ..\..\..\boost\call_traits.hpp
+symbolic link created for ..\..\..\boost\call_traits.hpp <<===>> ..\libs\utility\include\boost\call_traits.hpp
+link.mklink ..\..\..\boost\detail\call_traits.hpp
+symbolic link created for ..\..\..\boost\detail\call_traits.hpp <<===>> ..\..\libs\utility\include\boost\detail\call_traits.hpp
+link.mklink ..\..\..\boost\concept_check.hpp
+symbolic link created for ..\..\..\boost\concept_check.hpp <<===>> ..\libs\concept_check\include\boost\concept_check.hpp
+link.mklink ..\..\..\boost\iterator.hpp
+symbolic link created for ..\..\..\boost\iterator.hpp <<===>> ..\libs\core\include\boost\iterator.hpp
+link.mklink ..\..\..\boost\utility.hpp
+symbolic link created for ..\..\..\boost\utility.hpp <<===>> ..\libs\utility\include\boost\utility.hpp
+link.mklink ..\..\..\boost\utility\addressof.hpp
+symbolic link created for ..\..\..\boost\utility\addressof.hpp <<===>> ..\..\libs\core\include\boost\utility\addressof.hpp
+link.mklink ..\..\..\boost\utility\base_from_member.hpp
+symbolic link created for ..\..\..\boost\utility\base_from_member.hpp <<===>> ..\..\libs\utility\include\boost\utility\base_from_member.hpp
+link.mklink ..\..\..\boost\utility\binary.hpp
+symbolic link created for ..\..\..\boost\utility\binary.hpp <<===>> ..\..\libs\utility\include\boost\utility\binary.hpp
+link.mklink ..\..\..\boost\utility\identity_type.hpp
+symbolic link created for ..\..\..\boost\utility\identity_type.hpp <<===>> ..\..\libs\utility\include\boost\utility\identity_type.hpp
+link.mklink ..\..\..\boost\next_prior.hpp
+symbolic link created for ..\..\..\boost\next_prior.hpp <<===>> ..\libs\utility\include\boost\next_prior.hpp
+link.mklink ..\..\..\boost\noncopyable.hpp
+symbolic link created for ..\..\..\boost\noncopyable.hpp <<===>> ..\libs\core\include\boost\noncopyable.hpp
+link.mklink ..\..\..\boost\detail\indirect_traits.hpp
+symbolic link created for ..\..\..\boost\detail\indirect_traits.hpp <<===>> ..\..\libs\detail\include\boost\detail\indirect_traits.hpp
+link.mklink ..\..\..\boost\utility\result_of.hpp
+symbolic link created for ..\..\..\boost\utility\result_of.hpp <<===>> ..\..\libs\utility\include\boost\utility\result_of.hpp
+link.mklink ..\..\..\boost\utility\declval.hpp
+symbolic link created for ..\..\..\boost\utility\declval.hpp <<===>> ..\..\libs\type_traits\include\boost\utility\declval.hpp
+link.mklink ..\..\..\boost\pointee.hpp
+symbolic link created for ..\..\..\boost\pointee.hpp <<===>> ..\libs\iterator\include\boost\pointee.hpp
+link.mklink ..\..\..\boost\detail\is_incrementable.hpp
+symbolic link created for ..\..\..\boost\detail\is_incrementable.hpp <<===>> ..\..\libs\detail\include\boost\detail\is_incrementable.hpp
+link.mklink ..\..\..\boost\utility\compare_pointees.hpp
+symbolic link created for ..\..\..\boost\utility\compare_pointees.hpp <<===>> ..\..\libs\utility\include\boost\utility\compare_pointees.hpp
+link.mklink ..\..\..\boost\unordered_map.hpp
+symbolic link created for ..\..\..\boost\unordered_map.hpp <<===>> ..\libs\unordered\include\boost\unordered_map.hpp
+link.mklink ..\..\..\boost\detail\select_type.hpp
+symbolic link created for ..\..\..\boost\detail\select_type.hpp <<===>> ..\..\libs\detail\include\boost\detail\select_type.hpp
+link.mklink ..\..\..\boost\detail\no_exceptions_support.hpp
+symbolic link created for ..\..\..\boost\detail\no_exceptions_support.hpp <<===>> ..\..\libs\core\include\boost\detail\no_exceptions_support.hpp
+link.mklink ..\..\..\boost\ref.hpp
+symbolic link created for ..\..\..\boost\ref.hpp <<===>> ..\libs\core\include\boost\ref.hpp
+link.mklink ..\..\..\boost\utility\swap.hpp
+symbolic link created for ..\..\..\boost\utility\swap.hpp <<===>> ..\..\libs\core\include\boost\utility\swap.hpp
+link.mklink ..\..\..\boost\pointer_to_other.hpp
+symbolic link created for ..\..\..\boost\pointer_to_other.hpp <<===>> ..\libs\smart_ptr\include\boost\pointer_to_other.hpp
+link.mklink ..\..\..\boost\integer_fwd.hpp
+symbolic link created for ..\..\..\boost\integer_fwd.hpp <<===>> ..\libs\integer\include\boost\integer_fwd.hpp
+link.mklink ..\..\..\boost\detail\container_fwd.hpp
+symbolic link created for ..\..\..\boost\detail\container_fwd.hpp <<===>> ..\..\libs\detail\include\boost\detail\container_fwd.hpp
+link.mklink ..\..\..\boost\unordered_set.hpp
+symbolic link created for ..\..\..\boost\unordered_set.hpp <<===>> ..\libs\unordered\include\boost\unordered_set.hpp
+link.mklink ..\..\..\boost\circular_buffer.hpp
+symbolic link created for ..\..\..\boost\circular_buffer.hpp <<===>> ..\libs\circular_buffer\include\boost\circular_buffer.hpp
+link.mklink ..\..\..\boost\circular_buffer_fwd.hpp
+symbolic link created for ..\..\..\boost\circular_buffer_fwd.hpp <<===>> ..\libs\circular_buffer\include\boost\circular_buffer_fwd.hpp
+link.mklink ..\..\..\boost\lexical_cast.hpp
+symbolic link created for ..\..\..\boost\lexical_cast.hpp <<===>> ..\libs\lexical_cast\include\boost\lexical_cast.hpp
+link.mklink ..\..\..\boost\detail\lcast_precision.hpp
+symbolic link created for ..\..\..\boost\detail\lcast_precision.hpp <<===>> ..\..\libs\lexical_cast\include\boost\detail\lcast_precision.hpp
+link.mklink ..\..\..\boost\integer_traits.hpp
+symbolic link created for ..\..\..\boost\integer_traits.hpp <<===>> ..\libs\integer\include\boost\integer_traits.hpp
+link.mklink ..\..\..\boost\integer.hpp
+symbolic link created for ..\..\..\boost\integer.hpp <<===>> ..\libs\integer\include\boost\integer.hpp
+link.mklink ..\..\..\boost\detail\basic_pointerbuf.hpp
+symbolic link created for ..\..\..\boost\detail\basic_pointerbuf.hpp <<===>> ..\..\libs\lexical_cast\include\boost\detail\basic_pointerbuf.hpp
+link.mklink ..\..\..\boost\utility\value_init.hpp
+symbolic link created for ..\..\..\boost\utility\value_init.hpp <<===>> ..\..\libs\utility\include\boost\utility\value_init.hpp
+link.mklink ..\..\..\boost\aligned_storage.hpp
+symbolic link created for ..\..\..\boost\aligned_storage.hpp <<===>> ..\libs\type_traits\include\boost\aligned_storage.hpp
+link.mklink ..\..\..\boost\io_fwd.hpp
+symbolic link created for ..\..\..\boost\io_fwd.hpp <<===>> ..\libs\io\include\boost\io_fwd.hpp
+link.mklink ..\..\..\boost\type_traits.hpp
+symbolic link created for ..\..\..\boost\type_traits.hpp <<===>> ..\libs\type_traits\include\boost\type_traits.hpp
+link.mklink ..\..\..\boost\math\tr1.hpp
+symbolic link created for ..\..\..\boost\math\tr1.hpp <<===>> ..\..\libs\math\include\boost\math\tr1.hpp
+link.mklink ..\..\..\boost\math\tr1_c_macros.ipp
+symbolic link created for ..\..\..\boost\math\tr1_c_macros.ipp <<===>> ..\..\libs\math\include\boost\math\tr1_c_macros.ipp
+link.mklink ..\..\..\boost\format.hpp
+symbolic link created for ..\..\..\boost\format.hpp <<===>> ..\libs\format\include\boost\format.hpp
+link.mklink ..\..\..\boost\optional.hpp
+symbolic link created for ..\..\..\boost\optional.hpp <<===>> ..\libs\optional\include\boost\optional.hpp
+link.mklink ..\..\..\boost\detail\reference_content.hpp
+symbolic link created for ..\..\..\boost\detail\reference_content.hpp <<===>> ..\..\libs\detail\include\boost\detail\reference_content.hpp
+link.mklink ..\..\..\boost\none.hpp
+symbolic link created for ..\..\..\boost\none.hpp <<===>> ..\libs\optional\include\boost\none.hpp
+link.mklink ..\..\..\boost\none_t.hpp
+symbolic link created for ..\..\..\boost\none_t.hpp <<===>> ..\libs\optional\include\boost\none_t.hpp
+link.mklink ..\..\..\boost\shared_ptr.hpp
+symbolic link created for ..\..\..\boost\shared_ptr.hpp <<===>> ..\libs\smart_ptr\include\boost\shared_ptr.hpp
+link.mklink ..\..\..\boost\detail\sp_typeinfo.hpp
+symbolic link created for ..\..\..\boost\detail\sp_typeinfo.hpp <<===>> ..\..\libs\core\include\boost\detail\sp_typeinfo.hpp
+link.mklink ..\..\..\boost\predef.h
+symbolic link created for ..\..\..\boost\predef.h <<===>> ..\libs\predef\include\boost\predef.h
+link.mklink ..\..\..\boost\detail\lightweight_mutex.hpp
+symbolic link created for ..\..\..\boost\detail\lightweight_mutex.hpp <<===>> ..\..\libs\smart_ptr\include\boost\detail\lightweight_mutex.hpp
+link.mklink ..\..\..\boost\atomic.hpp
+symbolic link created for ..\..\..\boost\atomic.hpp <<===>> ..\libs\atomic\include\boost\atomic.hpp
+link.mklink ..\..\..\boost\memory_order.hpp
+symbolic link created for ..\..\..\boost\memory_order.hpp <<===>> ..\libs\atomic\include\boost\memory_order.hpp
+link.mklink ..\..\..\boost\operators.hpp
+symbolic link created for ..\..\..\boost\operators.hpp <<===>> ..\libs\utility\include\boost\operators.hpp
+link.mklink ..\..\..\boost\tokenizer.hpp
+symbolic link created for ..\..\..\boost\tokenizer.hpp <<===>> ..\libs\tokenizer\include\boost\tokenizer.hpp
+link.mklink ..\..\..\boost\token_iterator.hpp
+symbolic link created for ..\..\..\boost\token_iterator.hpp <<===>> ..\libs\tokenizer\include\boost\token_iterator.hpp
+link.mklink ..\..\..\boost\token_functions.hpp
+symbolic link created for ..\..\..\boost\token_functions.hpp <<===>> ..\libs\tokenizer\include\boost\token_functions.hpp
+doxygen-action ..\..\..\bin.v2\libs\svg_plot\doc\msvc-14.0\debug\threading-multi\autodoc-xml.xml-dir
+The system cannot find the file specified.
+Searching for include files...
+Searching for example files...
+Searching for images...
+Searching for dot files...
+Searching for msc files...
+Searching for dia files...
+Searching for files to exclude
+Searching INPUT for files to process...
+Reading and parsing tag files
+Parsing files
+Preprocessing I:/modular-boost/boost/svg_plot/quantile.hpp...
+Parsing file I:/modular-boost/boost/svg_plot/quantile.hpp...
+Preprocessing I:/modular-boost/boost/svg_plot/show_1d_settings.hpp...
+Parsing file I:/modular-boost/boost/svg_plot/show_1d_settings.hpp...
+Preprocessing I:/modular-boost/boost/svg_plot/show_2d_settings.hpp...
+Parsing file I:/modular-boost/boost/svg_plot/show_2d_settings.hpp...
+Preprocessing I:/modular-boost/boost/svg_plot/svg.hpp...
+Parsing file I:/modular-boost/boost/svg_plot/svg.hpp...
+Preprocessing I:/modular-boost/boost/svg_plot/svg_1d_plot.hpp...
+Parsing file I:/modular-boost/boost/svg_plot/svg_1d_plot.hpp...
+Preprocessing I:/modular-boost/boost/svg_plot/svg_2d_plot.hpp...
+Parsing file I:/modular-boost/boost/svg_plot/svg_2d_plot.hpp...
+Preprocessing I:/modular-boost/boost/svg_plot/svg_boxplot.hpp...
+Parsing file I:/modular-boost/boost/svg_plot/svg_boxplot.hpp...
+Preprocessing I:/modular-boost/boost/svg_plot/svg_color.hpp...
+Parsing file I:/modular-boost/boost/svg_plot/svg_color.hpp...
+Preprocessing I:/modular-boost/boost/svg_plot/svg_style.hpp...
+Parsing file I:/modular-boost/boost/svg_plot/svg_style.hpp...
+Preprocessing I:/modular-boost/boost/svg_plot/uncertain.hpp...
+Parsing file I:/modular-boost/boost/svg_plot/uncertain.hpp...
+Preprocessing I:/modular-boost/boost/svg_plot/detail/auto_axes.hpp...
+Parsing file I:/modular-boost/boost/svg_plot/detail/auto_axes.hpp...
+Preprocessing I:/modular-boost/boost/svg_plot/detail/axis_plot_frame.hpp...
+Parsing file I:/modular-boost/boost/svg_plot/detail/axis_plot_frame.hpp...
+Preprocessing I:/modular-boost/boost/svg_plot/detail/fp_compare.hpp...
+Parsing file I:/modular-boost/boost/svg_plot/detail/fp_compare.hpp...
+Preprocessing I:/modular-boost/boost/svg_plot/detail/functors.hpp...
+Parsing file I:/modular-boost/boost/svg_plot/detail/functors.hpp...
+Preprocessing I:/modular-boost/boost/svg_plot/detail/numeric_limits_handling.hpp...
+Parsing file I:/modular-boost/boost/svg_plot/detail/numeric_limits_handling.hpp...
+Preprocessing I:/modular-boost/boost/svg_plot/detail/pair.hpp...
+Parsing file I:/modular-boost/boost/svg_plot/detail/pair.hpp...
+Preprocessing I:/modular-boost/boost/svg_plot/detail/svg_boxplot_detail.hpp...
+Parsing file I:/modular-boost/boost/svg_plot/detail/svg_boxplot_detail.hpp...
+Preprocessing I:/modular-boost/boost/svg_plot/detail/svg_style_detail.hpp...
+Parsing file I:/modular-boost/boost/svg_plot/detail/svg_style_detail.hpp...
+Preprocessing I:/modular-boost/boost/svg_plot/detail/svg_tag.hpp...
+Parsing file I:/modular-boost/boost/svg_plot/detail/svg_tag.hpp...
+Building group list...
+Building directory list...
+Building namespace list...
+Building file list...
+Building class list...
+Associating documentation with classes...
+Computing nesting relations for classes...
+Building example list...
+Searching for enumerations...
+Searching for documented typedefs...
+Searching for members imported via using declarations...
+Searching for included using directives...
+Searching for documented variables...
+Building interface member list...
+Building member list...
+Searching for friends...
+Searching for documented defines...
+Computing class inheritance relations...
+Computing class usage relations...
+Flushing cached template relations that have become invalid...
+Creating members for template instances...
+Computing class relations...
+Add enum values to enums...
+Searching for member function documentation...
+Building page list...
+Search for main page...
+Computing page relations...
+Determining the scope of groups...
+Sorting lists...
+Freeing entry tree
+Determining which enums are documented
+Computing member relations...
+Building full member lists recursively...
+Adding members to member groups.
+Computing member references...
+Inheriting documentation...
+Generating disk names...
+Adding source references...
+Adding xrefitems...
+Sorting member lists...
+Computing dependencies between directories...
+Generating citations page...
+Counting data structures...
+Resolving user defined references...
+Finding anchors and sections in the documentation...
+Transferring function references...
+Combining using relations...
+Adding members to index pages...
+Generating style sheet...
+Generating example documentation...
+Generating file sources...
+Generating code for file I:/modular-boost/boost/svg_plot/detail/auto_axes.hpp...
+Generating code for file I:/modular-boost/boost/svg_plot/detail/axis_plot_frame.hpp...
+Generating code for file I:/modular-boost/boost/svg_plot/detail/fp_compare.hpp...
+Generating code for file I:/modular-boost/boost/svg_plot/detail/functors.hpp...
+Generating code for file I:/modular-boost/boost/svg_plot/detail/numeric_limits_handling.hpp...
+Generating code for file I:/modular-boost/boost/svg_plot/detail/pair.hpp...
+Generating code for file I:/modular-boost/boost/svg_plot/detail/svg_boxplot_detail.hpp...
+Generating code for file I:/modular-boost/boost/svg_plot/detail/svg_style_detail.hpp...
+Generating code for file I:/modular-boost/boost/svg_plot/detail/svg_tag.hpp...
+Generating code for file I:/modular-boost/boost/svg_plot/quantile.hpp...
+Generating code for file I:/modular-boost/boost/svg_plot/show_1d_settings.hpp...
+Generating code for file I:/modular-boost/boost/svg_plot/show_2d_settings.hpp...
+Generating code for file I:/modular-boost/boost/svg_plot/svg.hpp...
+Generating code for file I:/modular-boost/boost/svg_plot/svg_1d_plot.hpp...
+Generating code for file I:/modular-boost/boost/svg_plot/svg_2d_plot.hpp...
+Generating code for file I:/modular-boost/boost/svg_plot/svg_boxplot.hpp...
+Generating code for file I:/modular-boost/boost/svg_plot/svg_color.hpp...
+Generating code for file I:/modular-boost/boost/svg_plot/svg_style.hpp...
+Generating code for file I:/modular-boost/boost/svg_plot/uncertain.hpp...
+Generating file documentation...
+Generating docs for file I:/modular-boost/boost/svg_plot/detail/auto_axes.hpp...
+Generating docs for file I:/modular-boost/boost/svg_plot/detail/axis_plot_frame.hpp...
+Generating docs for file I:/modular-boost/boost/svg_plot/detail/fp_compare.hpp...
+Generating docs for file I:/modular-boost/boost/svg_plot/detail/functors.hpp...
+Generating docs for file I:/modular-boost/boost/svg_plot/detail/numeric_limits_handling.hpp...
+Generating docs for file I:/modular-boost/boost/svg_plot/detail/pair.hpp...
+Generating docs for file I:/modular-boost/boost/svg_plot/detail/svg_boxplot_detail.hpp...
+Generating docs for file I:/modular-boost/boost/svg_plot/detail/svg_style_detail.hpp...
+Generating docs for file I:/modular-boost/boost/svg_plot/detail/svg_tag.hpp...
+Generating docs for file I:/modular-boost/boost/svg_plot/quantile.hpp...
+Generating docs for file I:/modular-boost/boost/svg_plot/show_1d_settings.hpp...
+Generating docs for file I:/modular-boost/boost/svg_plot/show_2d_settings.hpp...
+Generating docs for file I:/modular-boost/boost/svg_plot/svg.hpp...
+Generating docs for file I:/modular-boost/boost/svg_plot/svg_1d_plot.hpp...
+Generating docs for file I:/modular-boost/boost/svg_plot/svg_2d_plot.hpp...
+Generating docs for file I:/modular-boost/boost/svg_plot/svg_boxplot.hpp...
+Generating docs for file I:/modular-boost/boost/svg_plot/svg_color.hpp...
+Generating docs for file I:/modular-boost/boost/svg_plot/svg_style.hpp...
+Generating docs for file I:/modular-boost/boost/svg_plot/uncertain.hpp...
+Generating page documentation...
+Generating group documentation...
+Generating class documentation...
+Generating docs for compound close_to...
+Generating docs for compound smallest...
+Generating namespace index...
+Generating docs for namespace boost
+Generating docs for namespace boost::math
+Generating docs for namespace boost::math::detail
+Generating docs for namespace boost::svg
+Generating docs for compound boost::svg::a_path...
+Generating docs for compound boost::svg::axis_line_style...
+Generating docs for compound boost::svg::bar_style...
+Generating docs for compound boost::svg::box_style...
+Generating docs for compound boost::svg::c_path...
+Generating docs for compound boost::svg::circle_element...
+Generating docs for compound boost::svg::clip_path_element...
+Generating docs for compound boost::svg::ellipse_element...
+Generating docs for compound boost::svg::g_element...
+Generating docs for compound boost::svg::h_path...
+Generating docs for compound boost::svg::histogram_style...
+Generating docs for compound boost::svg::l_path...
+Generating docs for compound boost::svg::line_element...
+Generating docs for compound boost::svg::m_path...
+Generating docs for compound boost::svg::path_element...
+Generating docs for compound boost::svg::path_point...
+Generating docs for compound boost::svg::plot_line_style...
+Generating docs for compound boost::svg::plot_point_style...
+Generating docs for compound boost::svg::poly_path_point...
+Generating docs for compound boost::svg::polygon_element...
+Generating docs for compound boost::svg::polyline_element...
+Generating docs for compound boost::svg::q_path...
+Generating docs for compound boost::svg::qurve_element...
+Generating docs for compound boost::svg::rect_element...
+Generating docs for compound boost::svg::s_path...
+Generating docs for compound boost::svg::svg...
+Generating docs for compound boost::svg::svg_1d_plot...
+Generating docs for compound boost::svg::svg_1d_plot_series...
+Generating docs for compound boost::svg::svg_2d_plot...
+Generating docs for compound boost::svg::svg_2d_plot_series...
+Generating docs for compound boost::svg::svg_boxplot...
+Generating docs for compound boost::svg::svg_boxplot_series...
+Generating docs for compound boost::svg::svg_color...
+Generating docs for compound boost::svg::svg_element...
+Generating docs for compound boost::svg::svg_style...
+Generating docs for compound boost::svg::t_path...
+Generating docs for compound boost::svg::text_element...
+Generating docs for compound boost::svg::text_element_text...
+Generating docs for compound boost::svg::text_parent...
+Generating docs for compound boost::svg::text_style...
+Generating docs for compound boost::svg::ticks_labels_style...
+Generating docs for compound boost::svg::tspan_element...
+Generating docs for compound boost::svg::unc...
+Generating docs for compound boost::svg::v_path...
+Generating docs for compound boost::svg::value_style...
+Generating docs for compound boost::svg::z_path...
+Generating docs for namespace boost::svg::boxplot
+Generating docs for namespace boost::svg::detail
+Generating docs for compound boost::svg::detail::axis_plot_frame...
+Generating docs for compound boost::svg::detail::double_1d_convert...
+Generating docs for compound boost::svg::detail::meas_1d_convert...
+Generating docs for compound boost::svg::detail::pair_double_2d_convert...
+Generating docs for compound boost::svg::detail::pair_Meas_2d_convert...
+Generating docs for compound boost::svg::detail::pair_unc_2d_convert...
+Generating docs for compound boost::svg::detail::unc_1d_convert...
+Generating docs for namespace detail
+Generating docs for namespace svg
+Generating graph info page...
+Generating directory documentation...
+finalizing index lists...
+writing tag file...
+Generating XML output...
+Generating XML output for class boost::svg::a_path
+Generating XML output for class boost::svg::axis_line_style
+Generating XML output for class boost::svg::detail::axis_plot_frame
+Generating XML output for class boost::svg::bar_style
+Generating XML output for class boost::svg::box_style
+Generating XML output for class boost::svg::c_path
+Generating XML output for class boost::svg::circle_element
+Generating XML output for class boost::svg::clip_path_element
+Generating XML output for class close_to
+Generating XML output for class boost::svg::detail::double_1d_convert
+Generating XML output for class boost::svg::ellipse_element
+Generating XML output for class boost::svg::g_element
+Generating XML output for class boost::svg::h_path
+Generating XML output for class boost::svg::histogram_style
+Generating XML output for class boost::svg::l_path
+Generating XML output for class boost::svg::line_element
+Generating XML output for class boost::svg::m_path
+Generating XML output for class boost::svg::detail::meas_1d_convert
+Generating XML output for class boost::svg::detail::pair_double_2d_convert
+Generating XML output for class boost::svg::detail::pair_Meas_2d_convert
+Generating XML output for class boost::svg::detail::pair_unc_2d_convert
+Generating XML output for class boost::svg::path_element
+Generating XML output for class boost::svg::path_point
+Generating XML output for class boost::svg::plot_line_style
+Generating XML output for class boost::svg::plot_point_style
+Generating XML output for class boost::svg::poly_path_point
+Generating XML output for class boost::svg::polygon_element
+Generating XML output for class boost::svg::polyline_element
+Generating XML output for class boost::svg::q_path
+Generating XML output for class boost::svg::qurve_element
+Generating XML output for class boost::svg::rect_element
+Generating XML output for class boost::svg::s_path
+Generating XML output for class smallest
+Generating XML output for class boost::svg::svg
+Generating XML output for class boost::svg::svg_1d_plot
+Generating XML output for class boost::svg::svg_1d_plot_series
+Generating XML output for class boost::svg::svg_2d_plot
+Generating XML output for class boost::svg::svg_2d_plot_series
+Generating XML output for class boost::svg::svg_boxplot
+Generating XML output for class boost::svg::svg_boxplot_series
+Generating XML output for class boost::svg::svg_color
+Generating XML output for class boost::svg::svg_element
+Generating XML output for class boost::svg::svg_style
+Generating XML output for class boost::svg::t_path
+Generating XML output for class boost::svg::text_element
+Generating XML output for class boost::svg::text_element_text
+Generating XML output for class boost::svg::text_parent
+Generating XML output for class boost::svg::text_style
+Generating XML output for class boost::svg::ticks_labels_style
+Generating XML output for class boost::svg::tspan_element
+Generating XML output for class boost::svg::unc
+Generating XML output for class boost::svg::detail::unc_1d_convert
+Generating XML output for class boost::svg::v_path
+Generating XML output for class boost::svg::value_style
+Generating XML output for class boost::svg::z_path
+Generating XML output for namespace boost
+Generating XML output for namespace boost::math
+Generating XML output for namespace boost::math::detail
+Generating XML output for namespace boost::svg
+Generating XML output for namespace boost::svg::boxplot
+Generating XML output for namespace boost::svg::detail
+Generating XML output for namespace detail
+Generating XML output for namespace svg
+Generating XML output for file auto_axes.hpp
+Generating XML output for file axis_plot_frame.hpp
+Generating XML output for file fp_compare.hpp
+Generating XML output for file functors.hpp
+Generating XML output for file numeric_limits_handling.hpp
+Generating XML output for file pair.hpp
+Generating XML output for file svg_boxplot_detail.hpp
+Generating XML output for file svg_style_detail.hpp
+Generating XML output for file svg_tag.hpp
+Generating XML output for file quantile.hpp
+Generating XML output for file show_1d_settings.hpp
+Generating XML output for file show_2d_settings.hpp
+Generating XML output for file svg.hpp
+Generating XML output for file svg_1d_plot.hpp
+Generating XML output for file svg_2d_plot.hpp
+Generating XML output for file svg_boxplot.hpp
+Generating XML output for file svg_color.hpp
+Generating XML output for file svg_style.hpp
+Generating XML output for file uncertain.hpp
+Generate XML output for dir I:/modular-boost/boost/
+Generate XML output for dir I:/modular-boost/boost/svg_plot/detail/
+Generate XML output for dir I:/modular-boost/boost/svg_plot/
+Generating XML output for the main page
+lookup cache used 3281/65536 hits=64282 misses=3368
+finished...
+xslt-xsltproc.windows ..\..\..\bin.v2\libs\svg_plot\doc\msvc-14.0\debug\threading-multi\autodoc-xml.doxygen
+xslt-xsltproc.windows ..\..\..\bin.v2\libs\svg_plot\doc\msvc-14.0\debug\threading-multi\autodoc-xml.boostbook
+I:/modular-boost/boost/svg_plot/detail/svg_tag.hpp:97: Cannot handle sectiondef with kind=protected-attrib
+I:/modular-boost/boost/svg_plot/detail/svg_tag.hpp:97: Cannot handle sectiondef with kind=protected-attrib
+I:/modular-boost/boost/svg_plot/detail/svg_tag.hpp:97: Cannot handle sectiondef with kind=protected-attrib
+I:/modular-boost/boost/svg_plot/detail/svg_tag.hpp:97: Cannot handle sectiondef with kind=protected-attrib
+I:/modular-boost/boost/svg_plot/detail/svg_tag.hpp:97: Cannot handle sectiondef with kind=protected-attrib
+I:/modular-boost/boost/svg_plot/detail/svg_tag.hpp:97: Cannot handle sectiondef with kind=protected-attrib
+I:/modular-boost/boost/svg_plot/detail/svg_tag.hpp:97: Cannot handle sectiondef with kind=protected-attrib
+I:/modular-boost/boost/svg_plot/detail/svg_tag.hpp:97: Cannot handle sectiondef with kind=protected-attrib
+I:/modular-boost/boost/svg_plot/detail/svg_tag.hpp:97: Cannot handle sectiondef with kind=protected-attrib
+I:/modular-boost/boost/svg_plot/detail/svg_tag.hpp:97: Cannot handle sectiondef with kind=protected-attrib
+I:/modular-boost/boost/svg_plot/detail/svg_tag.hpp:97: Cannot handle sectiondef with kind=protected-attrib
+I:/modular-boost/boost/svg_plot/detail/svg_tag.hpp:97: Cannot handle sectiondef with kind=protected-attrib
+I:/modular-boost/boost/svg_plot/detail/svg_tag.hpp:556: Cannot handle sectiondef with kind=protected-attrib
+I:/modular-boost/boost/svg_plot/detail/svg_tag.hpp:556: Cannot handle sectiondef with kind=protected-attrib
+I:/modular-boost/boost/svg_plot/detail/svg_tag.hpp:97: Cannot handle sectiondef with kind=protected-attrib
+I:/modular-boost/boost/svg_plot/svg.hpp:328: Cannot handle sectiondef with kind=protected-attrib
+common.copy autodoc.xml
+..\..\..\bin.v2\libs\svg_plot\doc\msvc-14.0\debug\threading-multi\autodoc-xml.boostbook
+        1 file(s) copied.
+common.copy html\boostbook.css
+boostbook.css
+        1 file(s) copied.
+common.copy html\images\1d_complex.png
+images\1d_complex.png
+        1 file(s) copied.
+common.copy html\images\1d_simple.png
+images\1d_simple.png
+        1 file(s) copied.
+common.copy html\images\1d_simple_style.png
+images\1d_simple_style.png
+        1 file(s) copied.
+common.copy html\images\1d_x_external.png
+images\1d_x_external.png
+        1 file(s) copied.
+common.copy html\images\1d_x_grid.png
+images\1d_x_grid.png
+        1 file(s) copied.
+common.copy html\images\2d_area_fill.png
+images\2d_area_fill.png
+        1 file(s) copied.
+common.copy html\images\2d_bezier.png
+images\2d_bezier.png
+        1 file(s) copied.
+common.copy html\images\2d_full.png
+images\2d_full.png
+        1 file(s) copied.
+common.copy html\images\2d_simple.png
+images\2d_simple.png
+        1 file(s) copied.
+common.copy html\images\2d_y_grid.png
+images\2d_y_grid.png
+        1 file(s) copied.
+...on 100th target...
+common.copy html\images\alert.png
+images\alert.png
+        1 file(s) copied.
+common.copy html\images\blank.png
+images\blank.png
+        1 file(s) copied.
+common.copy html\images\boxplot_full.png
+images\boxplot_full.png
+        1 file(s) copied.
+common.copy html\images\boxplot_simple.png
+images\boxplot_simple.png
+        1 file(s) copied.
+common.copy html\images\caution.png
+images\caution.png
+        1 file(s) copied.
+common.copy html\images\home.png
+images\home.png
+        1 file(s) copied.
+common.copy html\images\important.png
+images\important.png
+        1 file(s) copied.
+common.copy html\images\next.png
+images\next.png
+        1 file(s) copied.
+common.copy html\images\next_disabled.png
+images\next_disabled.png
+        1 file(s) copied.
+common.copy html\images\note.png
+images\note.png
+        1 file(s) copied.
+common.copy html\images\plot_window.png
+images\plot_window.png
+        1 file(s) copied.
+common.copy html\images\powered_by_boost.png
+images\powered_by_boost.png
+        1 file(s) copied.
+common.copy html\images\prev.png
+images\prev.png
+        1 file(s) copied.
+common.copy html\images\prev_disabled.png
+images\prev_disabled.png
+        1 file(s) copied.
+common.copy html\images\proposed_for_boost.png
+images\proposed_for_boost.png
+        1 file(s) copied.
+common.copy html\images\simple.png
+images\simple.png
+        1 file(s) copied.
+common.copy html\images\simple_2d.png
+images\simple_2d.png
+        1 file(s) copied.
+common.copy html\images\smiley.png
+images\smiley.png
+        1 file(s) copied.
+common.copy html\images\tip.png
+images\tip.png
+        1 file(s) copied.
+common.copy html\images\toc-blank.png
+images\toc-blank.png
+        1 file(s) copied.
+common.copy html\images\toc-minus.png
+images\toc-minus.png
+        1 file(s) copied.
+common.copy html\images\toc-plus.png
+images\toc-plus.png
+        1 file(s) copied.
+common.copy html\images\up.png
+images\up.png
+        1 file(s) copied.
+common.copy html\images\up_disabled.png
+images\up_disabled.png
+        1 file(s) copied.
+common.copy html\images\warning.png
+images\warning.png
+        1 file(s) copied.
+common.copy html\images\1d_full_layout.svg
+images\1d_full_layout.svg
+        1 file(s) copied.
+common.copy html\images\1d_simple.svg
+images\1d_simple.svg
+        1 file(s) copied.
+common.copy html\images\1d_x_grid.svg
+images\1d_x_grid.svg
+        1 file(s) copied.
+common.copy html\images\2d_area_fill_1.svg
+images\2d_area_fill_1.svg
+        1 file(s) copied.
+common.copy html\images\2d_area_fill_2.svg
+images\2d_area_fill_2.svg
+        1 file(s) copied.
+common.copy html\images\2d_bezier.svg
+images\2d_bezier.svg
+        1 file(s) copied.
+common.copy html\images\2d_default.svg
+images\2d_default.svg
+        1 file(s) copied.
+common.copy html\images\2d_full.svg
+images\2d_full.svg
+        1 file(s) copied.
+common.copy html\images\2d_limit.svg
+images\2d_limit.svg
+        1 file(s) copied.
+common.copy html\images\2d_simple.svg
+images\2d_simple.svg
+        1 file(s) copied.
+common.copy html\images\2d_y_grid.svg
+images\2d_y_grid.svg
+        1 file(s) copied.
+common.copy html\images\acosh.svg
+images\acosh.svg
+        1 file(s) copied.
+common.copy html\images\adobe1.svg
+images\adobe1.svg
+        1 file(s) copied.
+common.copy html\images\adobe_edited.svg
+images\adobe_edited.svg
+        1 file(s) copied.
+common.copy html\images\asinh.svg
+images\asinh.svg
+        1 file(s) copied.
+common.copy html\images\atanh.svg
+images\atanh.svg
+        1 file(s) copied.
+common.copy html\images\auto_1d_containers.svg
+images\auto_1d_containers.svg
+        1 file(s) copied.
+common.copy html\images\auto_1d_plot.svg
+images\auto_1d_plot.svg
+        1 file(s) copied.
+common.copy html\images\auto_2d_plot.svg
+images\auto_2d_plot.svg
+        1 file(s) copied.
+common.copy html\images\auto_boxplot.svg
+images\auto_boxplot.svg
+        1 file(s) copied.
+common.copy html\images\bernoulli_cdf.svg
+images\bernoulli_cdf.svg
+        1 file(s) copied.
+common.copy html\images\bernoulli_pdf.svg
+images\bernoulli_pdf.svg
+        1 file(s) copied.
+common.copy html\images\beta.svg
+images\beta.svg
+        1 file(s) copied.
+common.copy html\images\beta_pdf.svg
+images\beta_pdf.svg
+        1 file(s) copied.
+common.copy html\images\bezier_cubic.svg
+images\bezier_cubic.svg
+        1 file(s) copied.
+common.copy html\images\binomial_pdf_1.svg
+images\binomial_pdf_1.svg
+        1 file(s) copied.
+common.copy html\images\binomial_pdf_2.svg
+images\binomial_pdf_2.svg
+        1 file(s) copied.
+common.copy html\images\boxplot_simple.svg
+images\boxplot_simple.svg
+        1 file(s) copied.
+common.copy html\images\cauchy_pdf1.svg
+images\cauchy_pdf1.svg
+        1 file(s) copied.
+common.copy html\images\cauchy_pdf2.svg
+images\cauchy_pdf2.svg
+        1 file(s) copied.
+common.copy html\images\caution.svg
+images\caution.svg
+        1 file(s) copied.
+common.copy html\images\cbrt.svg
+images\cbrt.svg
+        1 file(s) copied.
+common.copy html\images\chi_squared_pdf.svg
+images\chi_squared_pdf.svg
+        1 file(s) copied.
+common.copy html\images\circle.svg
+images\circle.svg
+        1 file(s) copied.
+common.copy html\images\cyl_bessel_i.svg
+images\cyl_bessel_i.svg
+        1 file(s) copied.
+common.copy html\images\cyl_bessel_j.svg
+images\cyl_bessel_j.svg
+        1 file(s) copied.
+common.copy html\images\cyl_bessel_k.svg
+images\cyl_bessel_k.svg
+        1 file(s) copied.
+common.copy html\images\cyl_neumann.svg
+images\cyl_neumann.svg
+        1 file(s) copied.
+common.copy html\images\default_1d_plot.svg
+images\default_1d_plot.svg
+        1 file(s) copied.
+common.copy html\images\default_1d_plot_2.svg
+images\default_1d_plot_2.svg
+        1 file(s) copied.
+common.copy html\images\default_2d_plot_inkscape.svg
+images\default_2d_plot_inkscape.svg
+        1 file(s) copied.
+common.copy html\images\demo_1d_array_long_double.svg
+images\demo_1d_array_long_double.svg
+        1 file(s) copied.
+common.copy html\images\demo_1d_autoscaling.svg
+images\demo_1d_autoscaling.svg
+        1 file(s) copied.
+common.copy html\images\demo_1d_deque_double.svg
+images\demo_1d_deque_double.svg
+        1 file(s) copied.
+common.copy html\images\demo_1d_limits.svg
+images\demo_1d_limits.svg
+        1 file(s) copied.
+common.copy html\images\demo_1d_list_double.svg
+images\demo_1d_list_double.svg
+        1 file(s) copied.
+common.copy html\images\demo_1d_plot.svg
+images\demo_1d_plot.svg
+        1 file(s) copied.
+common.copy html\images\demo_1d_set_double.svg
+images\demo_1d_set_double.svg
+        1 file(s) copied.
+common.copy html\images\demo_1d_simple.svg
+images\demo_1d_simple.svg
+        1 file(s) copied.
+common.copy html\images\demo_1d_tick_values_1.svg
+images\demo_1d_tick_values_1.svg
+        1 file(s) copied.
+common.copy html\images\demo_1d_uncertainty.svg
+images\demo_1d_uncertainty.svg
+        1 file(s) copied.
+common.copy html\images\demo_1d_values.svg
+images\demo_1d_values.svg
+        1 file(s) copied.
+common.copy html\images\demo_1d_vector.svg
+images\demo_1d_vector.svg
+        1 file(s) copied.
+common.copy html\images\demo_1d_vector_float.svg
+images\demo_1d_vector_float.svg
+        1 file(s) copied.
+common.copy html\images\demo_1d_x_external.svg
+images\demo_1d_x_external.svg
+        1 file(s) copied.
+common.copy html\images\demo_2d_annotation.svg
+images\demo_2d_annotation.svg
+        1 file(s) copied.
+common.copy html\images\demo_2d_bar_x_block.svg
+images\demo_2d_bar_x_block.svg
+        1 file(s) copied.
+common.copy html\images\demo_2d_bar_x_histogram_y.svg
+images\demo_2d_bar_x_histogram_y.svg
+        1 file(s) copied.
+common.copy html\images\demo_2d_bar_x_stick.svg
+images\demo_2d_bar_x_stick.svg
+        1 file(s) copied.
+common.copy html\images\demo_2d_bar_y_block.svg
+images\demo_2d_bar_y_block.svg
+        1 file(s) copied.
+common.copy html\images\demo_2d_bar_y_stick.svg
+images\demo_2d_bar_y_stick.svg
+        1 file(s) copied.
+common.copy html\images\demo_2d_fonts.svg
+images\demo_2d_fonts.svg
+        1 file(s) copied.
+common.copy html\images\demo_2d_histogram_x.svg
+images\demo_2d_histogram_x.svg
+        1 file(s) copied.
+common.copy html\images\demo_2d_histogram_x2.svg
+images\demo_2d_histogram_x2.svg
+        1 file(s) copied.
+common.copy html\images\demo_2d_limits.svg
+images\demo_2d_limits.svg
+        1 file(s) copied.
+common.copy html\images\demo_2d_lines.svg
+images\demo_2d_lines.svg
+        1 file(s) copied.
+common.copy html\images\demo_2d_plot_XN.svg
+images\demo_2d_plot_XN.svg
+        1 file(s) copied.
+common.copy html\images\demo_2d_plot_XP.svg
+images\demo_2d_plot_XP.svg
+        1 file(s) copied.
+common.copy html\images\demo_2d_plot_XYN.svg
+images\demo_2d_plot_XYN.svg
+        1 file(s) copied.
+common.copy html\images\demo_2d_plot_XYP.svg
+images\demo_2d_plot_XYP.svg
+        1 file(s) copied.
+common.copy html\images\demo_2d_plot_XYPM.svg
+images\demo_2d_plot_XYPM.svg
+        1 file(s) copied.
+common.copy html\images\demo_2d_plot_YN.svg
+images\demo_2d_plot_YN.svg
+        1 file(s) copied.
+common.copy html\images\demo_2d_plot_YP.svg
+images\demo_2d_plot_YP.svg
+        1 file(s) copied.
+common.copy html\images\demo_2d_simple.svg
+images\demo_2d_simple.svg
+        1 file(s) copied.
+common.copy html\images\demo_2d_tick_values.svg
+images\demo_2d_tick_values.svg
+        1 file(s) copied.
+...on 200th target...
+common.copy html\images\demo_2d_uncertainty.svg
+images\demo_2d_uncertainty.svg
+        1 file(s) copied.
+common.copy html\images\demo_2d_values.svg
+images\demo_2d_values.svg
+        1 file(s) copied.
+common.copy html\images\demo_2d_x_external.svg
+images\demo_2d_x_external.svg
+        1 file(s) copied.
+common.copy html\images\demo_boxplot.svg
+images\demo_boxplot.svg
+        1 file(s) copied.
+common.copy html\images\demo_color.svg
+images\demo_color.svg
+        1 file(s) copied.
+common.copy html\images\demo_colors.svg
+images\demo_colors.svg
+        1 file(s) copied.
+common.copy html\images\demo_Hoaglin.svg
+images\demo_Hoaglin.svg
+        1 file(s) copied.
+common.copy html\images\demo_point_markers.svg
+images\demo_point_markers.svg
+        1 file(s) copied.
+common.copy html\images\demo_svg.svg
+images\demo_svg.svg
+        1 file(s) copied.
+common.copy html\images\demo_svgink.svg
+images\demo_svgink.svg
+        1 file(s) copied.
+common.copy html\images\demo_svg_text.svg
+images\demo_svg_text.svg
+        1 file(s) copied.
+common.copy html\images\demo_svg_tspan.svg
+images\demo_svg_tspan.svg
+        1 file(s) copied.
+common.copy html\images\digamma.svg
+images\digamma.svg
+        1 file(s) copied.
+common.copy html\images\ellint_1.svg
+images\ellint_1.svg
+        1 file(s) copied.
+common.copy html\images\ellint_2.svg
+images\ellint_2.svg
+        1 file(s) copied.
+common.copy html\images\ellint_3.svg
+images\ellint_3.svg
+        1 file(s) copied.
+common.copy html\images\ellint_carlson.svg
+images\ellint_carlson.svg
+        1 file(s) copied.
+common.copy html\images\erf.svg
+images\erf.svg
+        1 file(s) copied.
+common.copy html\images\erfc.svg
+images\erfc.svg
+        1 file(s) copied.
+common.copy html\images\erfc_inv.svg
+images\erfc_inv.svg
+        1 file(s) copied.
+common.copy html\images\erf_inv.svg
+images\erf_inv.svg
+        1 file(s) copied.
+common.copy html\images\expint2.svg
+images\expint2.svg
+        1 file(s) copied.
+common.copy html\images\expint_i.svg
+images\expint_i.svg
+        1 file(s) copied.
+common.copy html\images\expm1.svg
+images\expm1.svg
+        1 file(s) copied.
+common.copy html\images\exponential1.svg
+images\exponential1.svg
+        1 file(s) copied.
+common.copy html\images\exponential_pdf.svg
+images\exponential_pdf.svg
+        1 file(s) copied.
+common.copy html\images\extreme_value_pdf1.svg
+images\extreme_value_pdf1.svg
+        1 file(s) copied.
+common.copy html\images\extreme_value_pdf2.svg
+images\extreme_value_pdf2.svg
+        1 file(s) copied.
+common.copy html\images\first.svg
+images\first.svg
+        1 file(s) copied.
+common.copy html\images\fisher_f_pdf.svg
+images\fisher_f_pdf.svg
+        1 file(s) copied.
+common.copy html\images\gamma1.svg
+images\gamma1.svg
+        1 file(s) copied.
+common.copy html\images\gamma1_pdf.svg
+images\gamma1_pdf.svg
+        1 file(s) copied.
+common.copy html\images\gamma2.svg
+images\gamma2.svg
+        1 file(s) copied.
+common.copy html\images\gamma2_pdf.svg
+images\gamma2_pdf.svg
+        1 file(s) copied.
+common.copy html\images\gamma_p.svg
+images\gamma_p.svg
+        1 file(s) copied.
+common.copy html\images\gamma_q.svg
+images\gamma_q.svg
+        1 file(s) copied.
+common.copy html\images\gamma_scale.svg
+images\gamma_scale.svg
+        1 file(s) copied.
+common.copy html\images\graph1.svg
+images\graph1.svg
+        1 file(s) copied.
+common.copy html\images\heat_flow_data.svg
+images\heat_flow_data.svg
+        1 file(s) copied.
+common.copy html\images\heat_flow_data_boxplot.svg
+images\heat_flow_data_boxplot.svg
+        1 file(s) copied.
+common.copy html\images\hermite.svg
+images\hermite.svg
+        1 file(s) copied.
+common.copy html\images\home.svg
+images\home.svg
+        1 file(s) copied.
+common.copy html\images\hypergeometric_pdf_1.svg
+images\hypergeometric_pdf_1.svg
+        1 file(s) copied.
+common.copy html\images\hypergeometric_pdf_2.svg
+images\hypergeometric_pdf_2.svg
+        1 file(s) copied.
+common.copy html\images\ibeta.svg
+images\ibeta.svg
+        1 file(s) copied.
+common.copy html\images\important.svg
+images\important.svg
+        1 file(s) copied.
+common.copy html\images\laguerre.svg
+images\laguerre.svg
+        1 file(s) copied.
+common.copy html\images\laplace_pdf.svg
+images\laplace_pdf.svg
+        1 file(s) copied.
+common.copy html\images\legendre_p.svg
+images\legendre_p.svg
+        1 file(s) copied.
+common.copy html\images\legendre_q.svg
+images\legendre_q.svg
+        1 file(s) copied.
+common.copy html\images\lgamma.svg
+images\lgamma.svg
+        1 file(s) copied.
+common.copy html\images\log1p.svg
+images\log1p.svg
+        1 file(s) copied.
+common.copy html\images\lognormal_pdf1.svg
+images\lognormal_pdf1.svg
+        1 file(s) copied.
+common.copy html\images\lognormal_pdf2.svg
+images\lognormal_pdf2.svg
+        1 file(s) copied.
+common.copy html\images\nccs_pdf.svg
+images\nccs_pdf.svg
+        1 file(s) copied.
+common.copy html\images\nc_beta_pdf.svg
+images\nc_beta_pdf.svg
+        1 file(s) copied.
+common.copy html\images\nc_f_pdf.svg
+images\nc_f_pdf.svg
+        1 file(s) copied.
+common.copy html\images\nc_t_pdf.svg
+images\nc_t_pdf.svg
+        1 file(s) copied.
+common.copy html\images\negative_binomial_pdf_1.svg
+images\negative_binomial_pdf_1.svg
+        1 file(s) copied.
+common.copy html\images\negative_binomial_pdf_2.svg
+images\negative_binomial_pdf_2.svg
+        1 file(s) copied.
+common.copy html\images\normal1.svg
+images\normal1.svg
+        1 file(s) copied.
+common.copy html\images\normal_pdf.svg
+images\normal_pdf.svg
+        1 file(s) copied.
+common.copy html\images\pareto_pdf1.svg
+images\pareto_pdf1.svg
+        1 file(s) copied.
+common.copy html\images\pareto_pdf2.svg
+images\pareto_pdf2.svg
+        1 file(s) copied.
+common.copy html\images\poisson_pdf_1.svg
+images\poisson_pdf_1.svg
+        1 file(s) copied.
+common.copy html\images\powm1.svg
+images\powm1.svg
+        1 file(s) copied.
+common.copy html\images\prev.svg
+images\prev.svg
+        1 file(s) copied.
+common.copy html\images\proposed_for_boost.svg
+images\proposed_for_boost.svg
+        1 file(s) copied.
+common.copy html\images\rayleigh_cdf.svg
+images\rayleigh_cdf.svg
+        1 file(s) copied.
+common.copy html\images\rayleigh_pdf.svg
+images\rayleigh_pdf.svg
+        1 file(s) copied.
+common.copy html\images\simple_2d.svg
+images\simple_2d.svg
+        1 file(s) copied.
+common.copy html\images\sinc_pi.svg
+images\sinc_pi.svg
+        1 file(s) copied.
+common.copy html\images\sinhc_pi.svg
+images\sinhc_pi.svg
+        1 file(s) copied.
+common.copy html\images\sph_bessel.svg
+images\sph_bessel.svg
+        1 file(s) copied.
+common.copy html\images\sph_neumann.svg
+images\sph_neumann.svg
+        1 file(s) copied.
+common.copy html\images\sqrt1pm1.svg
+images\sqrt1pm1.svg
+        1 file(s) copied.
+common.copy html\images\students_t_pdf.svg
+images\students_t_pdf.svg
+        1 file(s) copied.
+common.copy html\images\svg_colors.svg
+images\svg_colors.svg
+        1 file(s) copied.
+common.copy html\images\svg_test_1d.svg
+images\svg_test_1d.svg
+        1 file(s) copied.
+common.copy html\images\svg_test_boxplot.svg
+images\svg_test_boxplot.svg
+        1 file(s) copied.
+common.copy html\images\test_svg_xml.svg
+images\test_svg_xml.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_inside.svg
+images\test_XYPM_inside.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_nowhere.svg
+images\test_XYPM_nowhere.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_outside_bottom.svg
+images\test_XYPM_outside_bottom.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_outside_left.svg
+images\test_XYPM_outside_left.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_outside_right.svg
+images\test_XYPM_outside_right.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_outside_top.svg
+images\test_XYPM_outside_top.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_somewhere.svg
+images\test_XYPM_somewhere.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYaxisLeftXLabAboveYLabLeftXDYH.svg
+images\test_XYPM_XaxisBottomYaxisLeftXLabAboveYLabLeftXDYH.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYaxisLeftXLabAboveYLabLeftXHYH.svg
+images\test_XYPM_XaxisBottomYaxisLeftXLabAboveYLabLeftXHYH.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYaxisLeftXLabAboveYLabLeftXSYH.svg
+images\test_XYPM_XaxisBottomYaxisLeftXLabAboveYLabLeftXSYH.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYaxisLeftXLabAboveYLabLeftXUYH.svg
+images\test_XYPM_XaxisBottomYaxisLeftXLabAboveYLabLeftXUYH.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYaxisLeftXLabAboveYLabLeftXVYH.svg
+images\test_XYPM_XaxisBottomYaxisLeftXLabAboveYLabLeftXVYH.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYaxisLeftXLabBelowYLabLeftXDYD.svg
+images\test_XYPM_XaxisBottomYaxisLeftXLabBelowYLabLeftXDYD.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYaxisLeftXLabBelowYLabLeftXDYH.svg
+images\test_XYPM_XaxisBottomYaxisLeftXLabBelowYLabLeftXDYH.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYaxisLeftXLabBelowYLabLeftXDYS.svg
+images\test_XYPM_XaxisBottomYaxisLeftXLabBelowYLabLeftXDYS.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYaxisLeftXLabBelowYLabLeftXDYU.svg
+images\test_XYPM_XaxisBottomYaxisLeftXLabBelowYLabLeftXDYU.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYaxisLeftXLabBelowYLabLeftXDYV.svg
+images\test_XYPM_XaxisBottomYaxisLeftXLabBelowYLabLeftXDYV.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYaxisLeftXLabBelowYLabLeftXHYH.svg
+images\test_XYPM_XaxisBottomYaxisLeftXLabBelowYLabLeftXHYH.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYaxisLeftXLabBelowYLabLeftXSYH.svg
+images\test_XYPM_XaxisBottomYaxisLeftXLabBelowYLabLeftXSYH.svg
+        1 file(s) copied.
+...on 300th target...
+common.copy html\images\test_XYPM_XaxisBottomYaxisLeftXLabBelowYLabLeftXUYH.svg
+images\test_XYPM_XaxisBottomYaxisLeftXLabBelowYLabLeftXUYH.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYaxisLeftXLabBelowYLabLeftXVYH.svg
+images\test_XYPM_XaxisBottomYaxisLeftXLabBelowYLabLeftXVYH.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYaxisLeftXLabBelowYLabRightXDYD.svg
+images\test_XYPM_XaxisBottomYaxisLeftXLabBelowYLabRightXDYD.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYaxisLeftXLabBelowYLabRightXDYH.svg
+images\test_XYPM_XaxisBottomYaxisLeftXLabBelowYLabRightXDYH.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYaxisLeftXLabBelowYLabRightXDYS.svg
+images\test_XYPM_XaxisBottomYaxisLeftXLabBelowYLabRightXDYS.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYaxisLeftXLabBelowYLabRightXDYU.svg
+images\test_XYPM_XaxisBottomYaxisLeftXLabBelowYLabRightXDYU.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYaxisLeftXLabBelowYLabRightXDYV.svg
+images\test_XYPM_XaxisBottomYaxisLeftXLabBelowYLabRightXDYV.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYaxisRightXLabBelowYLabLeftXDYD.svg
+images\test_XYPM_XaxisBottomYaxisRightXLabBelowYLabLeftXDYD.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYaxisRightXLabBelowYLabLeftXDYH.svg
+images\test_XYPM_XaxisBottomYaxisRightXLabBelowYLabLeftXDYH.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYaxisRightXLabBelowYLabLeftXDYS.svg
+images\test_XYPM_XaxisBottomYaxisRightXLabBelowYLabLeftXDYS.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYaxisRightXLabBelowYLabLeftXDYU.svg
+images\test_XYPM_XaxisBottomYaxisRightXLabBelowYLabLeftXDYU.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYaxisRightXLabBelowYLabLeftXDYV.svg
+images\test_XYPM_XaxisBottomYaxisRightXLabBelowYLabLeftXDYV.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYaxisRightXLabBelowYLabRightXDYD.svg
+images\test_XYPM_XaxisBottomYaxisRightXLabBelowYLabRightXDYD.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYaxisRightXLabBelowYLabRightXDYH.svg
+images\test_XYPM_XaxisBottomYaxisRightXLabBelowYLabRightXDYH.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYaxisRightXLabBelowYLabRightXDYS.svg
+images\test_XYPM_XaxisBottomYaxisRightXLabBelowYLabRightXDYS.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYaxisRightXLabBelowYLabRightXDYU.svg
+images\test_XYPM_XaxisBottomYaxisRightXLabBelowYLabRightXDYU.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYaxisRightXLabBelowYLabRightXDYV.svg
+images\test_XYPM_XaxisBottomYaxisRightXLabBelowYLabRightXDYV.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYAxisXLabBelowYLabLeftXDYD.svg
+images\test_XYPM_XaxisBottomYAxisXLabBelowYLabLeftXDYD.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYAxisXLabBelowYLabLeftXDYH.svg
+images\test_XYPM_XaxisBottomYAxisXLabBelowYLabLeftXDYH.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYAxisXLabBelowYLabLeftXDYS.svg
+images\test_XYPM_XaxisBottomYAxisXLabBelowYLabLeftXDYS.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYAxisXLabBelowYLabLeftXDYU.svg
+images\test_XYPM_XaxisBottomYAxisXLabBelowYLabLeftXDYU.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYAxisXLabBelowYLabLeftXDYV.svg
+images\test_XYPM_XaxisBottomYAxisXLabBelowYLabLeftXDYV.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYAxisXLabBelowYLabRightXDYD.svg
+images\test_XYPM_XaxisBottomYAxisXLabBelowYLabRightXDYD.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYAxisXLabBelowYLabRightXDYH.svg
+images\test_XYPM_XaxisBottomYAxisXLabBelowYLabRightXDYH.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYAxisXLabBelowYLabRightXDYS.svg
+images\test_XYPM_XaxisBottomYAxisXLabBelowYLabRightXDYS.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYAxisXLabBelowYLabRightXDYU.svg
+images\test_XYPM_XaxisBottomYAxisXLabBelowYLabRightXDYU.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisBottomYAxisXLabBelowYLabRightXDYV.svg
+images\test_XYPM_XaxisBottomYAxisXLabBelowYLabRightXDYV.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisTopYaxisLeftXLabAboveYLabLeftXDYH.svg
+images\test_XYPM_XaxisTopYaxisLeftXLabAboveYLabLeftXDYH.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisTopYaxisLeftXLabAboveYLabLeftXHYH.svg
+images\test_XYPM_XaxisTopYaxisLeftXLabAboveYLabLeftXHYH.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisTopYaxisLeftXLabAboveYLabLeftXSYH.svg
+images\test_XYPM_XaxisTopYaxisLeftXLabAboveYLabLeftXSYH.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisTopYaxisLeftXLabAboveYLabLeftXUYH.svg
+images\test_XYPM_XaxisTopYaxisLeftXLabAboveYLabLeftXUYH.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisTopYaxisLeftXLabAboveYLabLeftXVYH.svg
+images\test_XYPM_XaxisTopYaxisLeftXLabAboveYLabLeftXVYH.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisTopYaxisLeftXLabBelowYLabLeftXDYH.svg
+images\test_XYPM_XaxisTopYaxisLeftXLabBelowYLabLeftXDYH.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisTopYaxisLeftXLabBelowYLabLeftXHYH.svg
+images\test_XYPM_XaxisTopYaxisLeftXLabBelowYLabLeftXHYH.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisTopYaxisLeftXLabBelowYLabLeftXSYH.svg
+images\test_XYPM_XaxisTopYaxisLeftXLabBelowYLabLeftXSYH.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisTopYaxisLeftXLabBelowYLabLeftXUYH.svg
+images\test_XYPM_XaxisTopYaxisLeftXLabBelowYLabLeftXUYH.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XaxisTopYaxisLeftXLabBelowYLabLeftXVYH.svg
+images\test_XYPM_XaxisTopYaxisLeftXLabBelowYLabLeftXVYH.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XAxisYaxisLeftXLabAboveYLabLeftXDYH.svg
+images\test_XYPM_XAxisYaxisLeftXLabAboveYLabLeftXDYH.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XAxisYaxisLeftXLabAboveYLabLeftXHYH.svg
+images\test_XYPM_XAxisYaxisLeftXLabAboveYLabLeftXHYH.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XAxisYaxisLeftXLabAboveYLabLeftXSYH.svg
+images\test_XYPM_XAxisYaxisLeftXLabAboveYLabLeftXSYH.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XAxisYaxisLeftXLabAboveYLabLeftXUYH.svg
+images\test_XYPM_XAxisYaxisLeftXLabAboveYLabLeftXUYH.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XAxisYaxisLeftXLabAboveYLabLeftXVYH.svg
+images\test_XYPM_XAxisYaxisLeftXLabAboveYLabLeftXVYH.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XAxisYaxisLeftXLabBelowYLabLeftXDYH.svg
+images\test_XYPM_XAxisYaxisLeftXLabBelowYLabLeftXDYH.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XAxisYaxisLeftXLabBelowYLabLeftXHYH.svg
+images\test_XYPM_XAxisYaxisLeftXLabBelowYLabLeftXHYH.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XAxisYaxisLeftXLabBelowYLabLeftXSYH.svg
+images\test_XYPM_XAxisYaxisLeftXLabBelowYLabLeftXSYH.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XAxisYaxisLeftXLabBelowYLabLeftXUYH.svg
+images\test_XYPM_XAxisYaxisLeftXLabBelowYLabLeftXUYH.svg
+        1 file(s) copied.
+common.copy html\images\test_XYPM_XAxisYaxisLeftXLabBelowYLabLeftXVYH.svg
+images\test_XYPM_XAxisYaxisLeftXLabBelowYLabLeftXVYH.svg
+        1 file(s) copied.
+common.copy html\images\tgamma.svg
+images\tgamma.svg
+        1 file(s) copied.
+common.copy html\images\tgamma_delta_ratio.svg
+images\tgamma_delta_ratio.svg
+        1 file(s) copied.
+common.copy html\images\tip.svg
+images\tip.svg
+        1 file(s) copied.
+common.copy html\images\triangular_cdf.svg
+images\triangular_cdf.svg
+        1 file(s) copied.
+common.copy html\images\triangular_pdf.svg
+images\triangular_pdf.svg
+        1 file(s) copied.
+common.copy html\images\uniform_cdf.svg
+images\uniform_cdf.svg
+        1 file(s) copied.
+common.copy html\images\uniform_pdf.svg
+images\uniform_pdf.svg
+        1 file(s) copied.
+common.copy html\images\up.svg
+images\up.svg
+        1 file(s) copied.
+common.copy html\images\warning.svg
+images\warning.svg
+        1 file(s) copied.
+common.copy html\images\weibull1.svg
+images\weibull1.svg
+        1 file(s) copied.
+common.copy html\images\weibull2.svg
+images\weibull2.svg
+        1 file(s) copied.
+common.copy html\images\weibull_pdf1.svg
+images\weibull_pdf1.svg
+        1 file(s) copied.
+common.copy html\images\weibull_pdf2.svg
+images\weibull_pdf2.svg
+        1 file(s) copied.
+common.copy html\images\zeta1.svg
+images\zeta1.svg
+        1 file(s) copied.
+common.copy html\images\zeta2.svg
+images\zeta2.svg
+        1 file(s) copied.
+xslt-xsltproc.windows ..\..\..\bin.v2\libs\svg_plot\doc\msvc-14.0\debug\threading-multi\svg_plot.docbook
+Cannot find class named 'boost::svg::detail::axis_plot_frame'
+xslt-xsltproc.windows ..\..\..\bin.v2\libs\svg_plot\doc\msvc-14.0\debug\threading-multi\svg_plot.fo
+Making portrait pages on A4 paper (210mmx297mm)
+fop.render.pdf ..\..\..\bin.v2\libs\svg_plot\doc\msvc-14.0\debug\threading-multi\svg_plot.pdf
+The system cannot find the path specified.
+common.copy SVG_plot.pdf
+The system cannot find the file specified.
+
+    copy /b "..\..\..\bin.v2\libs\svg_plot\doc\msvc-14.0\debug\threading-multi\svg_plot.pdf" + this-file-does-not-exist-A698EE7806899E69 "SVG_plot.pdf"
+
+...failed common.copy SVG_plot.pdf...
+...removing SVG_plot.pdf
+...failed updating 1 target...
+...updated 364 targets...
